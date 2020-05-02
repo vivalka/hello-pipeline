@@ -21,14 +21,14 @@ pipeline
 	 {
 	 steps
 	 {
-	 sh 'war file created'
+	 sh 'echo war file created'
 	 }
 	 }
 	 stage('deploy test env')
 	 {
 	 steps
 	 {
-	 sh 'deploying test env'
+	 sh 'echo deploying test env'
 	 }
 	 }
 	 
